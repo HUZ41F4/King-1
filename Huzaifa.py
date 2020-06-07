@@ -156,7 +156,7 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		print logo2 = """
+		print """
 		jalan(' \033[1;91mWarning:- \033[1;93mDo Not Use Your Personal Account.' )
 		jalan(' \033[1;91mWarning:- \033[1;93mUse a New Account To Login.' )
 		jalan(' \033[1;91mWarning:- \033[1;93mThis Tool Is For Education Purpose Only.' )        """         
