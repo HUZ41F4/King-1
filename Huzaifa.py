@@ -157,9 +157,9 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print """
-		\033[1;91mWarning:- \033[1;93mDo Not Use Your Personal Account.
-		\033[1;91mWarning:- \033[1;93mUse a New Account To Login.
-		\033[1;91mWarning:- \033[1;93mThis Tool Is For Education Purpose Only.   """         
+		\033[1;91mWarning:- \033[1;93mUse New Account
+		\033[1;91mWarning:- \033[1;93mFast Cloning
+		\033[1;91mWarning:- \033[1;93mThis Tool Is For Edu   """         
 		print "\033[1;92m⋟•••••••••••••••••••••••✧✧•••••••••••••••••••••••⋞"
 		print('	   \033[1;91m♡\x1b[1;91m✔✔✔✔✔✔✔LOGIN WITH FACEBOOK✔✔✔✔✔✔✔\x1b[1;91m♡' )
 		print('	' )
